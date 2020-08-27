@@ -7,6 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
 import ChildParentDataShareComponent from './ChildParentDataShareComponent';
 import RefsExample from './RefsExample';
+import ReactLifeCycle from './ReactLifeCycle';
 
 
 ReactDOM.render(
@@ -16,7 +17,8 @@ ReactDOM.render(
     {/* <BrowserRouter>
     <LazyLoadingRouter/>
     </BrowserRouter> */}
-    <RefsExample/>
+    {/* <RefsExample/> */}
+    <ReactLifeCycle/>
   </React.StrictMode>,
   document.getElementById('root')
 );
