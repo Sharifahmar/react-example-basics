@@ -8,6 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
 import ChildParentDataShareComponent from './ChildParentDataShareComponent';
 import RefsExample from './RefsExample';
 import ReactLifeCycle from './ReactLifeCycle';
+import ReactLifeCycleHooks from './ReactLifeCycleHooks';
 
 
 ReactDOM.render(
@@ -18,7 +19,7 @@ ReactDOM.render(
     <LazyLoadingRouter/>
     </BrowserRouter> */}
     {/* <RefsExample/> */}
-    <ReactLifeCycle/>
+    <ReactLifeCycleHooks/>
   </React.StrictMode>,
   document.getElementById('root')
 );
