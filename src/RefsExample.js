@@ -10,6 +10,7 @@ export class RefsExample extends Component {
 
     focusTextInput = () => {
         this.textInput.current.focus();
+        console.log('textbox value '+ this.textInput.current.value)
     }
 
 

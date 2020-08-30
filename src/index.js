@@ -9,6 +9,8 @@ import ChildParentDataShareComponent from './ChildParentDataShareComponent';
 import RefsExample from './RefsExample';
 import ReactLifeCycle from './ReactLifeCycle';
 import ReactLifeCycleHooks from './ReactLifeCycleHooks';
+import RefsExampleHook from './RefsExampleHook';
+import { LazyLoadingRouterAfComponent } from './LazyLoadingRouterAfComponent';
 
 
 ReactDOM.render(
@@ -19,7 +21,11 @@ ReactDOM.render(
     <LazyLoadingRouter/>
     </BrowserRouter> */}
     {/* <RefsExample/> */}
-    <ReactLifeCycleHooks/>
+    {/* <ReactLifeCycleHooks/> */}
+    {/* <RefsExampleHook/> */}
+     <BrowserRouter>
+    <LazyLoadingRouterAfComponent/>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

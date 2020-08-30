@@ -12,7 +12,7 @@ const ReactLifeCycleHooks = () => {
         console.log("componentDidMount")
 
         return () => {
-            console.log('Cleaning up...') //ComponentWillUnmount()
+            console.log('Cleaning up...ComponentWillUnmount() call') //ComponentWillUnmount()
         }
     }, []);
 
